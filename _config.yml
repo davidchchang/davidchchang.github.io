@@ -8,8 +8,8 @@ permalink:        pretty
 # Setup
 title:            David Chang
 tagline:          'The _other_ David Chang'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. <a href="https://github.com/poole/hyde" target="_blank">Hyde</a> theme created by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://davidchchang.github.io
+description:      'Development notes and side projects. <a href="https://github.com/poole/hyde" target="_blank">Hyde</a> theme created by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://davidchchang.com
 baseurl:          /
 
 author:
