@@ -14,7 +14,7 @@ title: Installing TinyFugue on Mac with Python Bindings
 
 After upgrading to Mac OS X High Sierra, my compiled TinyFugue stopped working. Referring once again to [Ron Dippold](http://sizer99.com/tf/)'s excellent resource on TinyFugue scripting, I found the link to the pre-compiled binaries was broken.
 
-While trying to run `make`, the build failed, with errors about incompatible architectures:
+Following Ron's instructions, I was able to get as far as the `make` command before the build failed, with errors about incompatible architectures:
 ```
 Undefined symbols for architecture x86_64:
   "_pcre_info", referenced from:
@@ -26,7 +26,7 @@ make[1]: *** [tf] Error 1
 make: *** [files] Error 2
 ```
 
-Unfortunately, tinyfugue was calling a legacy API method `pcre_info` which has since been removed.
+Unfortunately, TinyFugue was calling a legacy API method `pcre_info` which has since been removed.
 
 Long story short, here are the steps I took to get TinyFugue installed on the latest Mac OS (10.13.1 High Sierra at the time of this writing):
  
